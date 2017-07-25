@@ -1,0 +1,16 @@
+CREATE TABLE `miterang` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_name` varchar(100) NOT NULL,
+  `user_position` varchar(100) NOT NULL,
+  `user_back_number` int(11) NOT NULL,
+  `description` text NOT NULL,
+  `created` datetime NOT NULL,
+  PRIMARY KEY (id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+INSERT INTO `miterang` (`id`, `user_name`, `user_position`, `user_back_number`, `description`,`created`)
+                  VALUES(1, '김국진', 'Wing Back','23','강한 정신력과 부단한 노력','2017-07-25 00:00:00');
+INSERT INTO `miterang` (`id`, `user_name`, `user_position`, `user_back_number`, `description`,`created`) VALUES(2, '라현수', 'Forward','3','근성 과 욕심','2017-07-25 00:01:00');
+INSERT INTO `miterang` (`id`, `user_name`, `user_position`, `user_back_number`, `description`,`created`) VALUES(3, '이종호','Left Wing Back','7','강한체력 경쟁심', '2017-07-25 00:02:00');
+INSERT INTO `miterang` (`id`, `user_name`, `user_position`, `user_back_number`, `description`,`created`) VALUES(4, '김정우', 'Right Wing Back','9','배려와 협동','2017-07-25 00:03:00');

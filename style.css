@@ -1,0 +1,40 @@
+body.black {
+  background-color:black;
+  color:white;
+}
+body.white {
+  background-color:white;
+  color:black;
+}
+/*header{
+  width:20%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom:1px solid gray;
+  padding:1px;
+}*/
+nav {
+  border-right:1px solid gray;
+  width:200px;
+  height:600px;
+  float:left;
+}
+/*nav ol{
+  list-style:none;
+}*/
+article{
+  width:20%;
+  float:left;
+  padding:20px;
+}
+#control{
+  margin-bottom:40px;
+}
+
+#logo {
+  width:120px;
+}
+
+.container{
+  padding-top:20px;
+}
